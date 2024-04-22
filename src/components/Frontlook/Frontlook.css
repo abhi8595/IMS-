@@ -1,0 +1,41 @@
+
+.container {
+  display: flex;
+  justify-content: center; 
+ 
+  height: 100vh; 
+}
+
+.secondline {
+  margin-top: 183px; 
+  color: white;
+  font-size: 40px;
+  font-family: raleway;
+}
+
+.rotating-text {
+  font-size: 30px;
+  color:#a1cb3b ;
+  transition: opacity 1s ease-in-out;
+  opacity: 1;
+  font-family: raleway;
+}
+
+.rotating-text.hide {
+  opacity: 0;
+}
+
+.slash {
+  margin-left: 5px;
+  color:#a1cb3b ;
+}
+.buttons{
+  margin-top: 87px;
+}
+.btn{
+  margin-right: 30px;
+  text-decoration: none;
+  color: #a1cb3b;
+  margin-left: 10px;
+
+}

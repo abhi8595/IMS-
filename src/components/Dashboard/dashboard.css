@@ -1,0 +1,69 @@
+header{
+    display: flex;
+    color: #a1cb2b;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.title{
+    text-decoration: none;
+    color : #a1cb2b;
+    font-size: 15px;
+    margin-left: 10PX;
+    font-style: italic;
+}
+.dashboardContainer{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+}
+.dashboard{
+    border: 3px solid #a1cb2b;
+    margin-top: 20px;
+    height: auto;
+    background-color: white;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    width: 100%;
+    margin-top: 10px;
+}
+.headerRow{
+    margin: 0 16px;
+    color: #a1cb2b;
+    font-weight: 500;
+  
+}
+.dashboard{
+    margin-right: 15px;
+}
+
+.row2{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    
+}
+.dataRow{
+  margin: 0 40px;
+}
+
+th{
+    color: #a1cb2b;
+    font-weight: 500;
+    padding: 10px;
+    
+}
+
+td{
+    text-align: center;
+    
+}
+.delbutton{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+     margin-left: 15px;
+}

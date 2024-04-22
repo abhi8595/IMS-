@@ -1,0 +1,32 @@
+.qrmainContainer{
+    position: absolute ;
+    top: 50% ;
+    left: 50% ;
+    transform: translate(-50%, -50%) 
+}
+.editHead{
+    color: #a1cb2b !important;
+    text-align: center !important;
+}
+label{
+    display: block;
+    
+}
+.qrForm{
+    border: 1px solid rgb(153, 152, 152);
+    padding: 15px;
+}
+select{
+    border-radius: 20px ;
+    margin-top: 10PX ;
+    background: transparent ;
+    border: 2px solid #a1cb2b !important ;
+    color: white ;
+    text-align: center ;
+    padding: 10px 0px;
+    font-size: 20px;
+    width: 275px;
+  }
+  option{
+    color: black;
+  }
